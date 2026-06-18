@@ -2,61 +2,38 @@ package id.my.labsi.myapp
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
-import androidx.activity.enableEdgeToEdge
+import android.widget.EditText
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.constraintlayout.widget.ConstraintLayout
+import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
 
-    var angkaBulat: Int = 0
-//    val angkaDesimal: Double = 14.3
-//    val angkaPanjang: Long = 900000000000000000L
-//
-//    val karakter: Char = 'A'
-//    var kata: String = "Ini adalah contoh teks panjang"
-//
-//    var benar: Boolean = true
-//    val salah: Boolean = false
-//
-//    val angkaArray: Array<Int> = arrayOf(1,2,3,4,5)
-//    val stringArray: Array<String> = arrayOf("Aku","Adalah","Programmer")
-//    val booleanArray: Array<Boolean> = arrayOf(true,false,true)
-
-    fun hitung(){
-        angkaBulat++
-//      angkaBulat = angkaBulat + 1
-    }
-
-    fun hitung(angka: Int, kata: String){
-
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val mainLayout: ConstraintLayout = findViewById(R.id.main)
+        val editText: EditText = findViewById(R.id.edit_text)
+        val btnKlik: Button = findViewById(R.id.btn_click)
+
+        btnKlik.setOnClickListener{
+            val teks: String = editText.text.toString()
+//            Toast.makeText(applicationContext, teks, Toast.LENGTH_SHORT).show()
+//            Snackbar.make(mainLayout, teks, Snackbar.LENGTH_LONG).show()
+            val builder = AlertDialog.Builder(this)
+            builder.setTitle("My App")
+            builder.setMessage(teks)
+            builder.setPositiveButton("Tutup"){
+                dialog, which ->
+                dialog.dismiss()
+            }
+
+            val dialog = builder.create()
+            dialog.show()
         }
-
-        val txtLoading: TextView = findViewById(R.id.txt_loading)
-        val btnHitung: Button = findViewById(R.id.btn_hitung)
-
-        btnHitung.setOnClickListener({
-            hitung()
-            txtLoading.text = angkaBulat.toString()
-        })
-
-//        if(angkaBulat == 4 && angkaDesimal > 13){
-//            benar = true
-//            kata = "Konsisi terpenuhi"
-//        } else {
-//            benar = false
-//            kata = "Kondisi tidak terpenuhi"
-//        }
     }
 }
