@@ -1,21 +1,22 @@
 package id.my.labsi.myapp
 
+import android.annotation.SuppressLint
 import android.os.Bundle
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import id.my.labsi.myapp.fragment.FirstFragment
 
 class SecondActivity : AppCompatActivity() {
+
+    @SuppressLint("CommitTransaction")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        val textView: TextView = findViewById(R.id.tv_show)
+        val transaction = supportFragmentManager.beginTransaction()
+        val firstFragment = FirstFragment()
 
-        if(intent.hasExtra("text1")){
-            textView.text = intent.getStringExtra("text1")
-        } else {
-            Toast.makeText(applicationContext, "Tidak ada data", Toast.LENGTH_SHORT).show()
-        }
+        transaction.replace(R.id.fragment_container, firstFragment)
+        transaction.commit()
     }
+
 }

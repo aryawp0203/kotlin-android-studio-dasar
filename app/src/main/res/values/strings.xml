@@ -24,4 +24,6 @@
 
         \n\nProin nisl velit, egestas ut est et, facilisis blandit sem. Nulla et sollicitudin justo. Vestibulum aliquet urna in sagittis sollicitudin. Integer ultrices tempor ex in posuere. Pellentesque id nulla non turpis convallis molestie. Praesent ut lacus ut mauris mollis rutrum sit amet nec sem. Fusce auctor cursus nulla in vehicula. Aliquam ullamcorper quam odio, vitae molestie lacus tristique id. Aliquam aliquam faucibus ex a pretium. Curabitur sit amet fermentum mi. Ut tempus condimentum ante eget volutpat. Quisque porttitor commodo ullamcorper. Cras id felis hendrerit, ultricies erat eget, consectetur erat. Integer hendrerit, justo at vulputate ullamcorper, nisi tellus volutpat leo, nec commodo nisl dui eu elit. Ut vulputate sed elit vel eleifend.
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
