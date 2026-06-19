@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="count">Hitung</string>
+    <string name="loading">Loading</string>
+    <string name="click_here">Klik Disini</string>
+    <string name="paragraf">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sollicitudin mi ornare, fermentum eros in, tristique magna. Sed sed libero quis lorem consectetur suscipit. Vestibulum sodales dui non eleifend auctor. Maecenas finibus aliquam lectus sit amet bibendum. Pellentesque pharetra felis ut dolor lobortis pharetra. Aliquam et rhoncus quam. Aliquam tincidunt mauris commodo sapien malesuada viverra. Duis vitae enim ultrices, dapibus nisl ac, tincidunt ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at odio orci.
+
+        \n\nDonec porttitor rhoncus nisi. Morbi ornare mauris at purus congue tempus. Phasellus auctor nibh non turpis egestas condimentum. Proin nec urna non leo varius posuere non quis ligula. Praesent vitae consequat diam, in finibus diam. Quisque fermentum risus non enim ultricies, et varius nulla sodales. Vivamus eleifend sapien quis aliquet lacinia. Integer facilisis, ex varius cursus malesuada, lacus est lacinia sem, non ullamcorper metus ante mollis dui. Suspendisse id dolor sed ipsum aliquet viverra eget id lacus.
+
+        \n\nCras eget augue a purus auctor porta. Integer lobortis eros ut elit tincidunt, id tempor eros fringilla. Vivamus at felis ut massa tincidunt egestas. Nulla hendrerit elit eu orci porta porttitor. Fusce sed viverra turpis, non congue metus. Quisque maximus porttitor justo, nec laoreet ante sodales id. Proin at elementum felis, in fringilla libero.
+
+        \n\nVestibulum gravida, ipsum et sagittis feugiat, urna lectus vestibulum dui, eget hendrerit turpis diam et dui. Mauris at felis sagittis, vulputate massa a, tristique augue. Etiam vitae porta turpis. Nullam nec sapien a lorem laoreet blandit. Morbi et nisi at erat porta molestie at quis leo. Morbi eu purus non mi suscipit dignissim a sit amet neque. Nullam tempor purus quis maximus facilisis. In fringilla tempor massa, nec luctus dolor varius at. Aliquam aliquet libero dapibus, iaculis elit sit amet, ultricies felis.
+
+        \n\nNam et consequat mi. Phasellus porttitor mauris vel urna bibendum, sed maximus elit mattis. Mauris a accumsan odio. Nulla interdum semper dui ut convallis. Etiam a tempus mi, vitae eleifend odio. Fusce fringilla, sem sit amet gravida ultrices, velit lectus semper sapien, sed elementum odio velit vitae elit. Phasellus tincidunt justo quis est porta, at sagittis nulla faucibus.
+
+        \n\nNulla lobortis eget sem non luctus. Sed risus nibh, porta sed auctor eu, blandit a est. Sed interdum dictum sem sagittis lobortis. Duis quis turpis eget mi tincidunt faucibus sit amet eget tellus. Phasellus sed aliquet dui. Nunc suscipit vulputate venenatis. Aliquam aliquam cursus mi vel dictum. Integer nulla nulla, varius suscipit eros id, vestibulum mattis elit. Aenean id turpis venenatis, elementum orci at, fringilla dolor. Morbi elementum non lorem nec gravida. Nullam tristique, eros in vulputate blandit, augue metus porta neque, at mattis lectus lectus id erat. Sed eget faucibus nisl. Aenean finibus urna risus, a rutrum orci ornare quis. Proin mattis consectetur ante non feugiat.
+
+        \n\nNam nunc dolor, posuere a bibendum quis, lobortis in magna. Ut congue blandit nisi ac faucibus. Fusce dictum orci nec tristique congue. Phasellus eu interdum tortor. Sed eu ex nec odio lacinia cursus. Vestibulum eleifend feugiat placerat. Integer id dictum massa. Etiam mattis ante et consectetur pellentesque. Donec id nisi id est eleifend commodo.
+
+        \n\nPraesent vitae erat tristique, porta dolor at, luctus erat. Aenean interdum euismod dolor, non congue eros consectetur vitae. Praesent mollis ex blandit nulla elementum, eu facilisis enim vestibulum. Suspendisse potenti. Vestibulum iaculis ex sit amet dapibus finibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse sollicitudin eget leo in blandit. Praesent molestie iaculis arcu pharetra vestibulum.
+
+        \n\nCras nec consectetur nunc. Sed malesuada ultrices mauris a lacinia. Quisque efficitur porta erat id feugiat. Vestibulum aliquet vehicula tincidunt. Pellentesque et maximus arcu. Sed ultricies tortor et risus tempor, vel ultrices magna luctus. Nulla consequat ullamcorper sem non rutrum. Praesent ultricies odio nibh, eget rhoncus neque volutpat ut. Vestibulum eget vehicula dui. Nulla sit amet neque a nulla tincidunt hendrerit vel at dui. In augue lorem, hendrerit sed leo id, fringilla tempor ipsum. Suspendisse a dui efficitur, aliquet metus a, efficitur justo.
+
+        \n\nProin nisl velit, egestas ut est et, facilisis blandit sem. Nulla et sollicitudin justo. Vestibulum aliquet urna in sagittis sollicitudin. Integer ultrices tempor ex in posuere. Pellentesque id nulla non turpis convallis molestie. Praesent ut lacus ut mauris mollis rutrum sit amet nec sem. Fusce auctor cursus nulla in vehicula. Aliquam ullamcorper quam odio, vitae molestie lacus tristique id. Aliquam aliquam faucibus ex a pretium. Curabitur sit amet fermentum mi. Ut tempus condimentum ante eget volutpat. Quisque porttitor commodo ullamcorper. Cras id felis hendrerit, ultricies erat eget, consectetur erat. Integer hendrerit, justo at vulputate ullamcorper, nisi tellus volutpat leo, nec commodo nisl dui eu elit. Ut vulputate sed elit vel eleifend.
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
